@@ -40,6 +40,8 @@ public class Sim {
 		for(Telefonata telefonata : telefonateFatte) {
 			System.out.println(telefonata);
 		}
+		telefonateFatteMap.entrySet().stream().forEach(entry -> System.out.println(entry.getKey()));
+
 	}
 
 	public void stampaTelefonateRicevute() {
